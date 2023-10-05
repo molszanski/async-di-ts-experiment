@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ESNext",
     "outDir": "dist/",
+    "baseUrl": "./src/",
     "declarationDir": "dist/",
     "lib": [
       "dom",
@@ -25,9 +26,5 @@
     "declaration": true,
     "jsx": "react"
   },
-  "include": [
-    "src/**/*",
-    "tests/**/*",
-  ],
   "exclude":["node_modules"]
 }
